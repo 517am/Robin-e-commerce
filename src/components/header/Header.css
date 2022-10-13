@@ -1,0 +1,179 @@
+header {
+  width: 100%;
+  justify-content: center;
+  background-color: #142c64;
+  color: #fff;
+  font-size: 14px;
+}
+
+header .top {
+  padding: 30px;
+}
+
+header a {
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  max-width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.header-elements {
+  display: flex;
+}
+
+.header-elements div {
+  margin: 0 15px;
+}
+
+.profile,
+.favorite,
+.orders,
+.cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 40px;
+}
+
+.header-elements nav .profile:before {
+  content: url("../../assets/icons/icon-profile.png")
+}
+
+.header-elements nav .favorite:before {
+  content: url("../../assets/icons/icon-favorite.png")
+}
+
+.header-elements nav .orders:before {
+  content: url("../../assets/icons/icon-orders.png")
+}
+
+.header-elements nav .cart:before {
+  content: url("../../assets/icons/icon-cart.png")
+}
+
+.header-elements nav {
+  display: flex;
+}
+
+.deliver {
+  width: 170px;
+  height: 40px;
+  border: 1px solid #fff;
+  color: rgba(255, 255, 255, 0.66);
+  display: flex;
+  align-items: center;
+}
+
+.deliver:before {
+  content: url("../../assets/icons/icon-map.png");
+  margin: 0 8px;
+}
+
+.deliver span {
+  font-weight: 700;
+  color: #fff;
+  width: 100%;
+  display: block;
+}
+
+.search {
+  display: flex;
+}
+
+.search select,
+.search input,
+.search button {
+  border: none;
+  height: 40px;
+  width: 48px;
+  background-color: #C4C4C4;
+  cursor: pointer;
+}
+
+.search select {
+  border-radius: 8px 0 0 8px;
+  -webkit-border-radius: 8px 0 0 8px;
+  -moz-border-radius: 8px 0 0 8px;
+  -ms-border-radius: 8px 0 0 8px;
+  -o-border-radius: 8px 0 0 8px;
+}
+
+.search input {
+  width: 520px;
+  background-color: #fff;
+  outline: none;
+  text-indent: 10px;
+}
+
+.search button {
+  border-radius: 0 8px 8px 0;
+  -webkit-border-radius: 0 8px 8px 0;
+  -moz-border-radius: 0 8px 8px 0;
+  -ms-border-radius: 0 8px 8px 0;
+  -o-border-radius: 0 8px 8px 0;
+}
+
+.search button::before {
+  content: url("../../assets/icons/icon-search.png");
+}
+
+.header-elements nav a:last-child {
+  margin-right: 0;
+}
+
+.header-elements nav a {
+  margin: 0 20px;
+}
+
+.bottom {
+  width: 100%;
+  background-color: #324778;
+}
+
+.mainCategory {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.allCategories::before {
+  content: url("../../assets/icons/icon-gamburger.png");
+  margin-right: 5px;
+}
+
+.topFashion::before {
+  content: url("../../assets/icons/icon-star.png");
+  margin-right: 5px;
+}
+
+.message::after {
+  content: url("../../assets/icons/icon-message.png");
+  margin-left: 5px;
+}
+
+.btnSellWithUs {
+  color: #142c64;
+  background-color: #fff;
+  padding: 7px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+
+@media screen and (max-width: 1400px) {
+  .search input {
+    width: 300px;
+  }
+}

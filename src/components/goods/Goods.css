@@ -1,0 +1,32 @@
+.goods {
+    text-align: center;
+}
+
+.wrapperGoods {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.goods .showMore {
+    width: 215px;
+    height: 50px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    text-align: center;
+    background: #fff;
+    margin: 0 auto;
+    border: 3px solid #142C64;
+    margin-top: 20px;
+    ;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 540px) {
+    .wrapperGoods {
+        justify-content: center;
+    }
+}

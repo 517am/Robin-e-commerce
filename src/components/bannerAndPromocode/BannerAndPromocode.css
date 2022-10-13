@@ -1,0 +1,162 @@
+.enterPromocode {
+  display: flex;
+  align-items: center;
+}
+
+.enterPromocode input {
+  width: 160px;
+  height: 40px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border: 2px solid #142C64;
+  text-align: center;
+}
+
+.enterPromocode button {
+  width: 50px;
+  height: 40px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border: 1px solid #142C64;
+  margin-left: 10px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.enterPromocode button:before {
+  content: url("../../assets/icons/icon-arrow-right.png");
+}
+
+.bannerAndPromocode {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.bannerAndPromocode hr {
+  height: 2px;
+  background: #142C64;
+  border: none;
+}
+
+.promocode {
+  padding: 20px 25px;
+  -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.promocode * {
+  margin: 10px 0;
+}
+
+.promocode a {
+  color: #142C64;
+}
+
+.loginOrRegister {
+  width: 100%;
+  height: 40px;
+  background-color: #142C64;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.sliderBullets ul {
+  display: flex;
+  justify-content: center;
+}
+
+.sliderBullets ul li {
+  margin: 10px 15px;
+  background-color: #142C64;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+.sliderBullets ul li:hover {
+  transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -o-transform: scale(1.3);
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  max-width: 1040px;
+}ы
+
+.banner img {
+  width: 100%;
+  max-width: 1040px;
+}
+
+.slick-slide img{
+  width: 100%;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 130px;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+
+.banner .prev:before {
+  content: url("../../assets/icons/icon-arrow-banner.png");
+}
+
+.banner .next:before {
+  content: url("../../assets/icons/icon-arrow-banner.png");
+}
+
+@media screen and (max-width: 540px) {
+  .bannerAndPromocode {
+    justify-content: center;
+  }
+  .promocode{
+    margin: 40px 0 20px 0;
+  }
+}

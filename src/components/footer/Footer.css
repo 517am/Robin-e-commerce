@@ -1,0 +1,70 @@
+footer{
+    width: 100%;
+    margin-top: 40px;
+    padding: 50px 0;
+    background-color: #142C64;
+    color: #fff;
+    text-align: center;
+}
+
+.footerListItem{
+    text-align: left;
+}
+
+footer h2{
+    margin-bottom: 20px;
+}
+
+footer ul li{
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+footer ul li:hover{
+    text-decoration: underline;
+}
+
+footer p{
+    max-width:  700px;
+    margin: 0 auto;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.waysToPay{
+    margin-top: 20px;
+}
+
+.waysToPay img{
+    margin: 0 10px;
+}
+
+.toUp, .chat{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #800000;
+    position: fixed;
+    right: 50px;
+    bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.chat{
+    left: 50px;
+}
+
+.toUp:before{
+    content: url("../../assets/icons/arrow-top.png");
+}
+
+.chat:before{
+    content: url("../../assets/icons/icon-chat.png");
+}

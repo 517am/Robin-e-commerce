@@ -1,0 +1,93 @@
+.timer ul {
+  display: flex;
+}
+
+.advertising {
+  display: flex;
+}
+
+.dealsAndOffers {
+  background-color: #C4C4C4;
+  color: #fff;
+  padding: 30px 40px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  height: 160px;
+  margin-right: 60px;
+}
+
+.dealsAndOffers h2 {
+  margin-bottom: 15px;
+}
+
+.timer {
+  margin-top: 20px;
+}
+
+.timer .timeElem {
+  width: 40px;
+  height: 40px;
+  background-color: #142C64;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.timer ul li {
+  margin: 0 20px;
+  text-align: center;
+}
+
+.timer ul li:first-child {
+  margin-left: 0;
+}
+
+.timer ul li:last-child {
+  margin-right: 0;
+}
+
+.smallBanners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.smallBanners img {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .advertising {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .smallBanners {
+    margin-top: 20px;
+    justify-content: center;
+  }
+
+  .smallBanners img {
+    margin: 10px
+  }
+
+  .dealsAndOffers {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .timer ul li {
+    margin: 0 12px;
+  }
+}
